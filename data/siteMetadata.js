@@ -1,13 +1,13 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
-  language: 'en-us',
+  title: '자력갱생',
+  author: '자력갱생',
+  headerTitle: '자력갱생',
+  description: '갱생하자',
+  language: 'ko-kr',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://blog-theta-seven-72.vercel.app',
+  siteRepo: 'https://blog-theta-seven-72.vercel.app',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   mastodon: 'https://mastodon.social/@mastodonuser',
@@ -20,7 +20,7 @@ const siteMetadata = {
   linkedin: 'https://www.linkedin.com',
   threads: 'https://www.threads.net',
   instagram: 'https://www.instagram.com',
-  locale: 'en-US',
+  locale: 'ko-KR',
   // set to true if you want a navbar fixed to the top
   stickyNav: false,
   analytics: {

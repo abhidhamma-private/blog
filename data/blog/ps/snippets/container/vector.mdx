@@ -1,0 +1,23 @@
+---
+title: vector 초기화
+date: '2024-10-07'
+tags: ['c++', 'container']
+draft: false
+summary: 'The blog template supports posts in nested sub-folders. This can be used to group posts of similar content e.g. a multi-part course. This post is itself an example of a nested route!'
+---
+
+```c
+#include <vector>
+using namespace std;
+
+int main() {
+
+    //int, 5개원소, 0으로 초기화
+    vector<int> R(5, 0);
+
+    //string, 5개원소, ""으로 초기화
+    vector<string> S(5, "");
+
+    return 0;
+}
+```
